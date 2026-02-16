@@ -1,0 +1,10 @@
+data(USArrests)
+summary(USArrests)
+state_rape <- rownames(USArrests)[which.max(USArrests$Rape)]
+print(state_rape)
+max(USArrests$Murder)
+min(USArrests$Murder)
+cor(USArrests)
+hist(USArrests$Murder)
+plot(USArrests$Assault, USArrests$Murder)
+barplot(USArrests$Rape, names.arg=rownames(USArrests))

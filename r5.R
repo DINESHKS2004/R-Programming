@@ -1,0 +1,6 @@
+data(women)
+height_factor <- factor(women$height)
+print(height_factor)
+letter_sample <- sample(LETTERS, 6)
+letter_factor <- factor(letter_sample)
+print(letter_factor)
